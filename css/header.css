@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 header {
+=======
+.main-header {
+>>>>>>> Stashed changes
     background-color: var(--background-tertiary-color);
     display: flex;
     flex-direction: row;
@@ -53,6 +57,10 @@ nav {
     font-size: 24px;
 }
 
+.list-links li a.active {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
     .navigation-menu {
         margin-top: 0;
@@ -92,12 +100,6 @@ nav {
     }
     .navigation-menu a:hover {
         color: var(--primary-color);
-    }
-}
-
-@media screen and (min-width: 1680px) {
-    header {
-        padding: 38px 140px;
     }
 }
 
